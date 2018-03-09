@@ -1,0 +1,424 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size:100%;
+}
+#alternation{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    background-color: white;
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/*w3c begain*/
+.w3c{
+    width:  20%;
+    height:150px;
+    float: left;
+    background-color: aqua;
+    text-align: center;
+}
+.w3c a{
+    line-height: 250%;
+}
+.w3c a:hover{
+    color: white;
+}
+.w3c1{
+    font-size: 40px;
+    font-family: fantasy;
+text-decoration: none;
+}
+.w3c2{
+    font-size: 15px;
+    font-family: fantasy;
+}
+/*w3c end*/
+
+/* w3c_right begain*/
+.w3c_right {
+    width: 80%;
+    height: 150px;
+    float: left;
+    background-color: darkkhaki;
+}
+.information{
+    width: 40%;
+    height: 120px;
+    float: right;
+    margin: 15px;
+}
+.information_head{
+    width: 80px;
+    height: 80px;
+    margin-left: 255px;
+    position: relative;
+    background-color: darkkhaki;
+}
+.information_head img:hover{
+
+}
+.information_head img{
+    width: 80px;
+    height: 80px;
+    border-radius:50px;
+}
+.log_reg{
+    height: 20px;
+    padding-left: 20%;
+    margin-top: 20px;
+
+}
+.log_reg div{
+    padding-left: 50%;
+}
+.log_reg a:hover{
+    color: white;
+}
+.log_reg a{
+    font-family: fantasy;
+    display: block;
+    float: left;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.sethome{
+    padding-right: 80px;
+}
+.w3c_right h1{
+    width: 50%;
+    margin-left: 50px;
+    font-family: fantasy;
+    text-shadow:  10px 10px 5px aqua;
+    line-height: 250%;
+    font-size: 60px;
+    color: white;
+}
+/* w3c_right end*/
+
+/* menu begain*/
+.menu{
+    height: 700px;
+    width: 20%;
+    /* margin-left: 80px;*/
+    background-color: darkorange;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: block;
+    height: 70px;
+    padding-left: 20px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+ul :hover{
+    cursor:pointer;
+    background-color: gold;
+}
+ul li a{
+    line-height: 350%;
+    text-shadow: 5px 5px 5px yellow;
+}
+.under_menu{
+    width: 100%;
+    height: 200px;
+    float: left;
+    background-color: cyan;
+}
+.under_menu1{
+    width: 100%;
+    height: 200px;
+    float: left;
+    background-color: cyan;
+    display: none;
+}
+.under_menu1 p{
+    font-family: fantasy;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+
+}
+.login{
+    margin: 10px;
+    height: 180px;
+    width: 88%;
+    border: double white;
+}
+.login p{
+    font-family: fantasy;
+    display: inline-block;
+}
+.user{
+    padding-left:20px ;
+    padding-right: 50px;
+}
+.pass{
+    padding-left: 20px;
+    padding-right: 17px;
+}
+.login_inner{
+    padding-top: 20px;
+}
+.but_in {
+    width: 100%;
+    cursor: pointer;
+}
+.but_in a{
+   text-align: center;
+    font-family: fantasy;
+    color: white;
+    font-size: 30px;
+    display: block;
+}
+
+.rem{
+    width: 100%;
+    height: auto;
+    padding-left: 18%;
+}
+.rem input{
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+}
+.rem p{
+    display: block;
+    height: 20px;
+    float: left;
+}
+/* menu end*/
+
+/*main content begain*/
+.menu_right{
+    width: 80%;
+    height: 700px;
+    background-color: pink;
+    float: right;
+}
+
+.contant{
+    height: 640px;
+    margin:30px;
+    position: relative;
+}
+
+
+#st1{
+    height: 640px;
+    width: 100%;
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+.st1_lift{
+    height: 640px;
+    width: 50%;
+    background-color: brown;
+    float: left;
+}
+.st1_right{
+    height: 640px;
+    width: 50%;
+    background-color: blueviolet;
+    float: left;
+}
+#notice{
+    width: 260px;
+    height:auto;
+    float: left;
+    text-align: center;
+    background-color: darkkhaki;
+    border-radius:20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#notice_left{
+    width: 560px;
+    height:150px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: dimgrey;
+    border-radius:20px;
+}
+#notice_btm{
+    width: 260px;
+    height: 400px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 35px;
+    background-color: dimgrey;
+    border-radius:20px;
+}
+#mic{
+    width: 520px;
+    height: 360px;
+    background-color: chartreuse;
+    float: left;
+    border-radius:20px;
+    margin: 20px;
+}
+#lic{
+    width: 360px;
+    height: auto;
+    margin-left: 80px;
+
+    margin-top: 20px;
+    background-color: deepskyblue;
+    border-radius:10px;
+}
+
+#notice_top{
+    width: 260px;
+    height:30px;
+}
+#player{
+    width: 360px;
+    height:120px;
+    background-color: bisque;
+    border-radius:10px;
+    margin-left: 80px;
+
+    margin-top: 20px;
+}
+#image_mic {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+#image_mic img{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+
+}
+#image_mic img:hover{
+
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: scale(1.5,1.5);
+   -o-transform: scale(1.5,1.5);
+    -moz-transform: scale(1.5,1.5);
+    -ms-transform: scale(1.5,1.5);
+
+}
+embed{
+    opacity:0;
+
+}
+
+#st2{
+    height: 640px;
+    width: 100%;
+    display: none;
+    background-color: cadetblue;
+    border-radius:30px;
+}
+
+#st3{
+    height: 640px;
+    width: 100%;
+    display: none;
+    background-color: darkcyan;
+    border-radius:30px;
+}
+
+#st4{
+    height: 640px;
+    width: 100%;
+    display: none;
+    background-color: darkgoldenrod;
+    border-radius:30px;
+}
+
+#st5{
+    height: 640px;
+    width: 100%;
+    display: none;
+    background-color: brown;
+    border-radius:30px;
+}
+
+#st6{
+    height: 640px;
+    width: 100%;
+    display: none;
+    background-color: chocolate;
+    border-radius:30px;
+}
+
+#st7{
+    height: 640px;
+    width: 100%;
+    display: none;
+    background-color: darkturquoise;
+    border-radius:30px;
+}
+.litter{
+    padding-top: 20px;
+    margin-left: 100px;
+}
+#st7 textarea{
+    width: 698px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+/*main content end*/
+
+/*footer begain*/
+#tijiaodiv{
+    width: 300px;
+    height: 30px;
+    margin-left:200px;
+    margin-top: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+#tijiaodiv p{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 25px;
+    line-height: 120%;
+
+
+}
+
+
+.foot{
+    background-color: lightseagreen;
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+.foot p{
+    font-family: fantasy;
+    text-align: center;
+    line-height: 150%;
+    color: white;
+}
+/*footer end*/
