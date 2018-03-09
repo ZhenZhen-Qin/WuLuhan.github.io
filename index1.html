@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>A web page</title>
+        <link href="css/index1.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-2.0.0.min.js"></script>
+        <script src="js/myjs.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+
+    <body>
+
+    <!--整个大容器div-->
+        <div class="container">
+            <!--头部header开始-->
+
+            <!--w3c区-->
+            <div class="w3c">
+                <a class="w3c1" href="http://www.w3school.com.cn/">
+                    W3C
+                </a>
+                <p class="w3c2">www.w3school.com.cn</p>
+            </div>
+            <!--w3c结束-->
+
+            <!--w3c右边开始-->
+            <div class="w3c_right">
+
+                <div class="information">
+                    <div class="information_head">
+                        <img id="photo" src="imgs/Login.png" />
+                    </div>
+                    <div class="log_reg">
+                        <a class="sethome"  href="#">Set &nbsp;Home</a>
+                        <a>Login</a>
+                        <a>|</a>
+                        <a onclick=" logout();">Logout</a>
+                    </div>
+                </div>
+                <h1>CONTENT</h1>
+            </div>
+            <!--w3c右边结束-->
+
+            <!--头部header结束-->
+
+
+            <!--导航菜单开始-->
+            <hr color="white" size="0.1px"/>
+            <div class="menu" id="menu">
+
+                <!--菜单列表开始-->
+                <ul class="menu_list">
+                    <div id="m1" class="li_c" onclick="change1();" onmouseover="hover();" onmouseout="hout();"><li><a id="a1" href="index1.html">HOME</a></li></div>
+                    <hr color="white" size="0.1px"/>
+                    <div id="m2" class="li_c" onclick="change2();"onmouseover="hover2();"onmouseout="hout2();" ><li><a id="a2">HTML/CSS</a></li></div>
+                    <hr color="white" size="0.1px"/>
+                    <div id="m3"class="li_c" onclick="change3();"onmouseover="hover3();"onmouseout="hout3();"><li><a id="a3">Java&nbsp;Script</a></li></div>
+                    <hr color="white" size="0.1px"/>
+                    <div  id="m4"class="li_c" onclick="change4();"onmouseover="hover4();"onmouseout="hout4();"><li><a id="a4">Server&nbsp;Side</a></li></div>
+                    <hr color="white" size="0.1px"/>
+                    <div  id="m5"class="li_c" onclick="change5();"onmouseover="hover5();"onmouseout="hout5();"><li><a id="a5">APS.NET</a ></li></div>
+                    <hr color="white" size="0.1px"/>
+                    <div id="m6" class="li_c" onclick="change6();"onmouseover="hover6();"onmouseout="hout6();"><li><a id="a6">Web&nbsp;Building</a></li></div>
+                    <hr color="white" size="0.1px"/>
+                    <div  id="m7"class="li_c" onclick="change7();"onmouseover="hover7();"onmouseout="hout7();"><li><a id="a7">Contact&nbsp; We</a></li></div>
+                    <hr color="white" size="0.1px"/>
+                </ul>
+                <hr color="white" size="0.1px"/>
+                <!--菜单列表结束-->
+
+                <!--登录的div开始-->
+                <div class="under_menu" id="under_menu">
+                    <div class="login">
+                        <div class="login_inner">
+                            <form name="myform">
+                                <p class="user">User</p><input id="input1" name="user" type="text" size="8" max="10" >
+                                <br>
+                                <br>
+                                <p class="pass">Password</p><input id="input2"name="password" type="password" size="8" max="15" />
+                                <br>
+                                <br>
+                                <div class="but_in">
+                                    <a onclick="login();">Login</a>
+                                </div>
+                                <div class="rem">
+                                    <input type="checkbox"  ><p>Rember Password</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="under_menu1"id="under_menu1">
+                    <p>Login&nbsp; Success!</p>
+                    <br>
+                    <br>
+                    <br>
+                    <p>Welcome to log on to this websit!</p>
+                </div>
+                <!--登录的div结束-->
+
+                <hr color="white" size="0.1px"/>
+            </div>
+            <!--菜单列表结束-->
+
+            <!--主内容区开始-->
+            <div class="menu_right">
+                <div class="contant">
+
+                    <section id="st1">
+                        <div>
+                            <p style="font-family: fantasy ;text-align: center; font-size:40px">JAVA WEB SYSTEM DEVELOPMENT</p>
+                        </div>
+                        <hr>
+
+                        <div id="notice_left">
+
+                        </div>
+
+
+
+                        <div id="notice">
+                            <div id="notice_top">
+                                <p style="font-family: fantasy ;text-align: center; font-size:28px">Notice!!!</p>
+                            </div>
+                            <hr>
+                            <hr>
+                            <marquee direction="up" scrollamount="1"style="line-height:20px;" width="260px" height="80px"  align="middle" onmouseover="stop()" onmouseout="start()">
+                               <p style="color: white; text-align: center">sagdjsagdj by wangzeqi</p>
+                            </marquee>
+                        </div>
+
+                        <div id="notice_btm">
+
+                        </div>
+
+                        <div id="mic">
+
+                            <div id="lic">
+                                <marquee direction="up" scrollamount="1"style= "margin-left: 30px""line-height:20px;" width="300px" height="80px"  align="middle" >
+                                    <p style="color: white ; text-align: center" >
+                                        光阴的故事<br>
+                                        罗大佑<br>
+                                        ------<br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        春天的花开秋天的风以及冬天的落阳<br>
+                                        ---------------------------------<br>
+                                        <br><br><br>
+                                        忧郁的青春年少的我曾经无知的这么想<br>
+                                        ----------------------------------<br>
+                                        <br> <br>
+                                        风车在四季轮回的歌里它天天地流转<br>
+                                        --------------------------------<br>
+                                        <br><br><br>
+                                        风花雪月的诗句里我在年年的成长<br>
+                                        ------------------------------<br>
+                                        <br> <br>
+                                        流水带走光阴的故事改变了一个人<br>
+                                        ------------------------------<br>
+                                        <br><br><br>
+                                        就在那多愁善感而初次等待的青春<br>
+                                        -----------------------------<br>
+                                        <br><br>
+                                        发黄的相片古老的信以及褪色的圣诞卡<br>
+                                        ----------------------------------<br>
+                                        <br> <br><br><br><br><br><br><br><br><br><br>
+                                        年轻时为你写的歌恐怕你早已忘了吧<br>
+                                        --------------------------------<br>
+                                        <br> <br><br>
+                                        过去的誓言就象那课本里缤纷的书签<br>
+                                        --------------------------------<br>
+                                        <br><br>
+                                        刻划着多少美丽的诗可是终究是一阵烟<br>
+                                        ----------------------------------
+                                        <br><br><br>
+                                        生命与告别光阴的故事改变了两个人<br>
+                                        --------------------------------<br>
+                                        <br><br><br>
+                                        就在那多愁善感而初次流泪的青春<br>
+                                        ------------------------------<br>
+                                        <br> <br><br>
+                                        遥远的路程昨日的梦以及远去的笑声<br>
+                                        --------------------------------<br>
+                                        <br> <br><br>
+                                        再次的见面我们又历经了多少的路程<br>
+                                        --------------------------------<br>
+                                        <br><br><br>
+                                        不再是旧日熟悉的我有着旧日狂热的梦<br>
+                                        ----------------------------------<br>
+                                        <br><br><br>
+                                        也不是旧日熟悉的你有着依然的笑容<br>
+                                        --------------------------------<br>
+                                        <br><br><br>
+                                        生命与告别光阴的故事改变了我们<br>
+                                        ------------------------------<br>
+                                        <br> <br><br>
+                                        就在那多愁善感而初次回忆的青春<br>
+                                        ------------------------------<br>
+                                        <br><br><br>
+                                    </p>
+                                </marquee>
+                            </div>
+                            <div id="image_mic">
+                                <img id="img" src="imgs/dms.png" >
+                            </div>
+                            <div id="player">
+                                <embed src="sound/黄晓明 - 光阴的故事.mp3" width=360 height=120 type=audio/mpeg loop="-1" autostart="1" volume="0">
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <section id="st2">
+
+                    </section>
+
+                    <section id="st3">
+
+                    </section>
+
+                    <section id="st4">
+
+                    </section>
+
+                    <section id="st5">
+
+                    </section>
+
+                    <section id="st6">
+
+                    </section>
+
+                    <section id="st7">
+                        <div class="litter">
+                            <form>
+                                <input id="heading" type="text" size="95"placeholder="Enter title">
+                                <textarea id="zhengwen"></textarea>
+                                <br>
+                                <div id="tijiaodiv">
+                                    <p>S&nbsp;u&nbsp;b&nbsp;m&nbsp;i&nbsp;t</p>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+            <!--主内容区开始-->
+
+            <!--页脚开始-->
+            <div class="foot">
+                <p>Copyright © 2016.wangjiaqi All rights reserved</p>
+                <p>Made by WangJiaQi</p>
+                <p>Data:2016-4-12</p>
+                <p>Reference by：<a href="http://www.w3school.com.cn/">www.3wschool.com</a></p>
+            </div>
+            <!--页脚结束-->
+
+            <div id="alternation">
+
+            </div>
+        </div>
+
+        <script type="javascript">
+            $(document).ready(function(){
+                var num = 0;
+                var i = 0;
+                for(i = 1;i >= num;i++)
+                {
+                    $("#img").rotate(180*i);
+                }
+            })
+
+        </script>
+    </body>
+</html>
