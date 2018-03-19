@@ -1,0 +1,46 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="qinzz2018@gmail.com" resolutions="1x" timestamp="1521384279860">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_a-__.css" crc="4101561532" ref="select-student:select-class:modify-personal-information:personal:select:index:score"/>
+    <file name="select-student.css" crc="3955786678" ref="select-student"/>
+    <file name="select-class.css" crc="3955786678" ref="select-class"/>
+    <file name="modify-personal-information.css" crc="3955786678" ref="modify-personal-information"/>
+    <file name="personal.css" crc="258226164" ref="personal"/>
+    <file name="select.css" crc="3955786678" ref="select"/>
+    <file name="index.css" crc="132628844" ref="index"/>
+    <file name="score.css" crc="3955786678" ref="score"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:personal:score:select:select-class:select-student:modify-personal-information"/>
+    <file name="museutils.js" crc="3803043152" ref="index:personal:score:select:select-class:select-student:modify-personal-information"/>
+    <file name="whatinput.js" crc="86476730" ref="index:personal:score:select:select-class:select-student:modify-personal-information"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:personal:score:select:select-class:select-student:modify-personal-information"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:personal:score:select:select-class:select-student:modify-personal-information"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="index:personal:score:select:select-class:select-student:modify-personal-information"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:personal:score:select:select-class:select-student:modify-personal-information"/>
+    <file name="require.js" crc="4157109226" ref="index:personal:score:select:select-class:select-student:modify-personal-information"/>
+  </folder>
+  <folder name="images">
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="arrowmenudown.png" crc="262559161" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="touxinag.jpg" crc="4254629316" seo="true" ref="index:personal:score:select:select-class:select-student:modify-personal-information">
+      <caption webpage="personal" alt=""/>
+      <caption webpage="modify-personal-information" alt=""/>
+      <caption webpage="select" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="score" alt=""/>
+      <caption webpage="select-student" alt=""/>
+      <caption webpage="select-class" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="3803964183" seo="true" mt="1521383305140" redirect="true"/>
+  <file name="personal.html" crc="4007196143" seo="true" mt="1521383902130" redirect="true"/>
+  <file name="score.html" crc="291547982" seo="true" mt="1521383305140" redirect="true"/>
+  <file name="select.html" crc="99632441" seo="true" mt="1521384158750" redirect="true"/>
+  <file name="select-class.html" crc="4166062080" seo="true" mt="1521383305140" redirect="true"/>
+  <file name="select-student.html" crc="386109074" seo="true" mt="1521383305140" redirect="true"/>
+  <file name="modify-personal-information.html" crc="4092262303" seo="true" mt="1521383305140" redirect="true"/>
+</manifest>
